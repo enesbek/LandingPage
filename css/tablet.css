@@ -1,0 +1,10 @@
+#skills ul {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 9rem;
+}
+
+#skills ul li {
+  flex: 1 0 25%;
+}

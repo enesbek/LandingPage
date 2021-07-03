@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar */
+#navbar{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 70px;
+}
+
+#navbar ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a{
+  padding: 1rem;
+}
+
+#navbar ul li a:hover{
+  background: #323232;
+  border-radius: 2px;
+}
+
+/* Home */
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#home img{
+  max-height: 100%;
+  width: auto;
+  border-radius: 15%;
+}
+
+#home .name h2{
+  margin: 0.75rem;
+}
+
+#home .name p{
+  opacity: 0.8;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+#home .name a{
+  color: black;
+  font-style: italic;
+}
+
+/* Skills */ 
+#skills{
+  color: #fff;
+  letter-spacing: 00.1rem;
+  padding-top: 0.75rem;
+}
+
+#skills ul{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+#skills ul li{
+  margin: 1rem
+}
+
+/* Projects */
+#projects{
+  color: black;
+  padding: 1.5rem;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.projects .project{
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.projects .project .project-image{
+  margin-right: 1rem;
+}
+
+.projects .project .project-info .project-name{
+  letter-spacing: .7px;
+  font-weight: bold;
+  margin-bottom: .8rem;
+  font-size: large;
+}
+
+.projects .project .project-info .project-language{
+  letter-spacing: .7px;
+  margin-bottom: .5rem;
+  font-size: large;
+  opacity: .8;
+}
+
+.projects .project .project-info .project-description{
+  margin-bottom: 1rem;
+}
+
+.projects .project .project-info .project-link a{
+  margin-right: 1rem;
+  color: black;
+}
+
+.projects .project .project-info .project-link a:hover{
+  cursor: pointer;
+  color: blue;
+}
+

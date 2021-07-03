@@ -1,0 +1,21 @@
+#navbar{
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5;
+  overflow: hidden;
+  height: 80px;
+}
+
+#skills ul {
+  flex-direction: row;
+  height: auto;
+  margin: 0rem;
+}
+
+#skills ul li {
+  margin: 0.75rem;
+}
+
+.projects .project{
+  flex-direction: column;
+}
